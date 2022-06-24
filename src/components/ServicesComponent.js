@@ -2,7 +2,6 @@ import React from 'react'
 
 function ServicesComponent() {
   return (
-    <div className='serv_container'>
     <div className='services_ag'>
         <div className='serv_cont'>
           <div className='serv'>
@@ -19,14 +18,13 @@ function ServicesComponent() {
           </div>
           <div className='section-cont2'>
           <h3>Obučićemo Vaše osoblje kako bi pružilo vrhunsku uslugu</h3>
-          <p>We're an extension of your customer service team, and all of our resources are free. Chat to our friendly team 24/7 when you need help.</p>
+          <p>Podignite kvalitet Vaših usluga na viši nivo kroz stručnu edukaciju prilagođenu Vašem ugostiteljsko-turističkom objektu.</p>
           </div>
           <div className='section-cont3'>
           <h3>Poštedićemo Vas neprijatnosti duplih rezervacija sa našim softverom</h3>
-          <p>No more unpleasant surprises. Our in-app top line view of your business spending means you can see who's spending what, when,</p>
+          <p>Povećajte prodaju i iskorištenost instaliranih kapaciteta primjenom efikasnog softverskog sistema za rezervacije.</p>
           </div>
         </div>
-    </div>
     </div>
   )
 }

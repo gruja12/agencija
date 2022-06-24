@@ -7,7 +7,7 @@ function Navbar() {
 
     const [showNav,setShowNav] = useState(false);
     const showNavbar = ()=>{
-        if (window.scrollY > 80) {
+        if (window.scrollY > 100) {
             setShowNav(true);
         }
         else{
@@ -22,7 +22,7 @@ function Navbar() {
 
     },[])
   return (
-        <div className='logo'>
+        <div className='logo1'>
         <nav className={showNav ?'drop-down':'hide-menu'}>
         <div className='logo-img1'><a href='/'><img src={Logo} alt='logo'/></a></div>
           <ul>

@@ -7,6 +7,7 @@ import Arrow from '../img/arrow.svg';
 import './ServicesComponent.css'
 import ServicesComponent from './ServicesComponent';
 import Navbar from './Navbar';
+import Services from './Services';
 
 function Home() {
   return (
@@ -45,10 +46,8 @@ function Home() {
       </header>
       <main>
         <ServicesComponent/>
-      
-        
-
-      </main>
+        <Services/>
+    </main>
 </div>
 
   );

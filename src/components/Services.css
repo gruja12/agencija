@@ -1,0 +1,15 @@
+.services {
+    position: relative;
+    top: 96px;
+    background-image: url("../img/obuka\ 2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+}
+
+.sect-services {
+    width: 60%;
+    margin: 0 auto;
+}
