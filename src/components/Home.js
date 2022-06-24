@@ -1,20 +1,17 @@
 import React from 'react';
 import './Home.css';
-import Img from '../img/img1.png';
 import Phone from '../img/phone.svg';
 import Email from '../img/email.svg';
 import Logo from '../img/Logo.svg';
 import Arrow from '../img/arrow.svg';
 import './ServicesComponent.css'
 import ServicesComponent from './ServicesComponent';
-// import Navbar from './Navbar';
+import Navbar from './Navbar';
 
 function Home() {
   return (
     <div className='container'>
-      <div className='img-container'>
-      <img src={Img} alt='img' className='img1' width='1920px'/>
-      <div className='text'>OVO JE TEST</div>
+      <header>
       <div className='info'> 
       <div className='info1'>Besplatan seminar: “Kako profitirati danas bavljenjem hotelsko-turističkim biznisom”. <span>Prijavite se</span>
       </div> 
@@ -23,8 +20,7 @@ function Home() {
         <div className='email'><img src={Email} alt='email' className='email-img'/>info@agencijakapacitet.com</div>
       </div>
       </div>
-      {/* <Navbar/> */}
-      <div className='logo'>
+      <Navbar/>
         <nav className='drop-down-menu'>
         <div className='logo-img'><a href='/'><img src={Logo} alt='logo'/></a></div>
           <ul>
@@ -38,7 +34,6 @@ function Home() {
             <button className='btn'>Besplatan Seminar</button>
           </ul>
         </nav>
-      </div>
       <div className='content'>
         <h2>Konsalting i softverska rješenja za</h2>
         <h1>Vaš smještaj</h1>
@@ -47,12 +42,10 @@ function Home() {
       <div className='cta-btn'>
       <button>DOBIJTE PRVI SAVJET BESPLATNO</button>
       </div>
-      </div>
+      </header>
       <main>
         <ServicesComponent/>
-        <ServicesComponent/>
-        <ServicesComponent/>
-        <ServicesComponent/>
+      
         
 
       </main>

@@ -23,7 +23,7 @@ function Navbar() {
     },[])
   return (
         <div className='logo'>
-        <nav className={showNav &&'drop-down'}>
+        <nav className={showNav ?'drop-down':'hide-menu'}>
         <div className='logo-img1'><a href='/'><img src={Logo} alt='logo'/></a></div>
           <ul>
             <li><a href='/'>Početna</a></li>
